@@ -6,6 +6,57 @@
 	margin-right: 35px;
 }
 
+/* #image-hbg {
+	background-image: url('images/hbg2.png');
+	background-position: center center;
+	background-size: 100%;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+} */
+
+.box {
+	position: relative;
+}
+
+.image-title {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	right: 0;
+	top: 15%;
+	letter-spacing: 2px;
+}
+
+.play-btn {
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	left: 20%;
+	right: 0;
+	top: 20%;
+	background-color: rgba(157, 230, 157, 0.699);
+}
+
+#play {
+	font-size: 50px;
+	padding-left: 35%;
+}
+
+.play-btn-new {
+	position: relative;
+	margin-top: 50px;
+	border-radius: 7px;
+	height: 50px;
+	padding: auto;
+	width: 35%;
+	font-size: 15px;
+	background-color: rgba(117, 243, 44, 0.466);
+	cursor: pointer;
+}
+
 #main_nav {
 	overflow: hidden;
 	position: absolute;
@@ -189,6 +240,7 @@ i {
 	font-size: 15px;
 	line-height: 8px;
 }
+
 #pop-up {
 	margin-bottom: 1rem;
 	background-color: white;
@@ -198,9 +250,9 @@ i {
 	margin-left: 350px;
 	margin-top: 20%;
 }
+
 .last-div {
 	width: 100%;
-
 	background-color: rgba(84, 84, 85, 0.918);
 	display: flex;
 	align-items: flex-start;
@@ -222,13 +274,14 @@ i {
 	padding: 5px;
 	font-size: 12.5px;
 }
+
 @media only screen and (max-width: 990px) {
 	#right-nav {
 		display: none;
 	}
 	#main_nav {
 		margin-top: 30px;
-		width: 100%;
+		width: auto;
 		height: auto;
 		position: relative;
 	}
