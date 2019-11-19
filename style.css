@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+.bottom-nav {
+	display: flex;
+	line-height: 25px;
+	margin-top: 80px;
+	margin-right: 35px;
+}
+
+#main_nav {
+	overflow: hidden;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+.nav-item {
+	padding-right: 20px;
+}
+
+.nav-item .nav-link {
+	font-size: 15px;
+}
+
+#search {
+	margin-left: -20px;
+	height: 25px;
+}
+
+#partner {
+	color: black;
+	font-size: 25px;
+	font-style: oblique;
+	letter-spacing: 3.5px;
+	font-weight: 700;
+}
+
+.image-1 {
+	margin-left: 20%;
+	padding-top: 5px;
+	height: auto;
+}
+
+.image-aside-text {
+	display: block;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-family: 'Signika', sans-serif;
+	margin-left: 29%;
+	margin-top: -55px;
+	color: whitesmoke;
+}
+
+.img {
+	width: 100%;
+	opacity: 0.3;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	margin-top: -35px;
+	margin-right: 25%;
+}
+
+.about-li {
+	list-style-type: none;
+}
+
+i {
+	padding: 10px;
+	margin: 0;
+}
+
+.image-container {
+	background-image: url('images/hbg5.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 35px;
+}
+
+.backgr-card {
+	background-image: url('images/hbg6.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin-top: 60px;
+	opacity: 0.8;
+}
+
+.backgr-card-1 {
+	margin-left: 40px;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+}
+
+.carousel-image {
+	background-image: url('images/testimonial-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+
+.rounded-circle {
+	margin-left: 45%;
+	width: 140px;
+	height: 150px;
+	border-radius: 50%;
+	border: 8px solid white;
+}
+
+.carousel-caption {
+	display: flex;
+	position: unset;
+	right: 15%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+#blocks::before {
+	content: open-quote;
+	font-size: 18px;
+	color: white;
+	padding-right: 5px;
+}
+
+#blocks::after {
+	content: close-quote;
+	font-size: 18px;
+	color: white;
+	padding-left: 5px;
+}
+
+.blog-post {
+	margin-top: 40px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+#blog-post {
+	display: flex;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container > div {
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+}
+
+#read-more:hover {
+	background-color: rgba(95, 228, 95, 0.884);
+}
+
+#recent-tweets {
+	list-style-type: none;
+	display: block;
+	justify-content: flex-start;
+	font-size: 15px;
+}
+
+#main-footer {
+	background-color: #a9a9a9;
+}
+
+#footer-cards {
+	color: whitesmoke;
+}
+
+#footer-details {
+	font-size: 15px;
+	line-height: 8px;
+}
+#pop-up {
+	margin-bottom: 1rem;
+	background-color: white;
+	display: none;
+	width: max-content;
+	padding: 10px;
+	margin-left: 350px;
+	margin-top: 20%;
+}
+.last-div {
+	width: 100%;
+
+	background-color: rgba(84, 84, 85, 0.918);
+	display: flex;
+	align-items: flex-start;
+}
+
+#call-us-footer {
+	font-size: 1.8em;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 1px;
+}
+
+#icons-footer {
+	text-decoration: none;
+	color: black;
+	padding-left: 5px;
+}
+
+#disclaimer-footer {
+	padding: 5px;
+	font-size: 12.5px;
+}
+@media only screen and (max-width: 990px) {
+	#right-nav {
+		display: none;
+	}
+	#main_nav {
+		margin-top: 30px;
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.shortcut {
+		font-size: 15px;
+	}
+	.navbar-toggler-icon {
+		font-size: 20px;
+	}
+	#partner {
+		font-size: 15px;
+	}
+	#navbar-brand {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 668px) {
+	.image-1 {
+		margin-left: 15%;
+	}
+	.image-aside-text {
+		margin-left: 30%;
+	}
+	.image-aside-text {
+		margin-left: 25px;
+	}
+}
+
+@media only screen and (max-width: 837px) {
+	.image-1 {
+		margin-left: 10%;
+	}
+	.image-aside-text {
+		margin-left: 20%;
+	}
+	.btn {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 454px) {
+	#brand-img {
+		width: 250px;
+		height: auto;
+	}
+	.image-1 {
+		height: auto;
+	}
+	.image-aside-text {
+		font-size: 15px;
+	}
+}
